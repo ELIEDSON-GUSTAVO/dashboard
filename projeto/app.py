@@ -89,3 +89,9 @@ def dashboard():
 
 if __name__ == "__main__":
     app.run(debug=True)
+
+def dashboard():
+    return render_template("dashboard.html", items=items)
+
+if __name__ == "__main__":
+    app.run(debug=True)
